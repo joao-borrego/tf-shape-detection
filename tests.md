@@ -28,7 +28,7 @@ The asterisk (\*) in `sim_no_camera_*` represents each of the 5 subdatasets, nam
 
 ### Training Parameters
 
-We used exponentially decaying learning rate, α = α_0 * k ^ floor(- iteration * t), with k = 0.95.
+We used exponentially decaying learning rate, α = α_0 * k ^ floor(- iteration / t), with k = 0.95.
 
 | Run                       | Learning rate α_0 | Decay steps t | Iterations |
 |---------------------------|-------------------|---------------|------------|
