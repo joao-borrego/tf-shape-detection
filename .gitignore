@@ -16,3 +16,4 @@ mobilenet/*
 # Configurations
 workspace/*
 !workspace/config
+!workspace/test_input_config
