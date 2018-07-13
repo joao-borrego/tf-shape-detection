@@ -1,0 +1,18 @@
+# Images
+*.png
+*.jpg
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Models
+ssd_mobilenet_v1_coco*
+ssd_mobilenet_v1_coco_11_06_2017*
+faster_rcnn_resnet50_lowproposals_coco_2017_11_08*
+mobilenet/*
+
+*.py[cod]
+
+# Configurations
+workspace/*
+!workspace/config
