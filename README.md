@@ -36,7 +36,7 @@ Our pipeline is based on [Justin Francis][wagonhelm]' [TensorFlow Object Detecti
 
 Our pipeline requires the following software.
 
-- [TensorFlow v1.3](http://www.tensorflow.org/)
+- [TensorFlow v1.8](http://www.tensorflow.org/)
 - [protobuf](https://github.com/google/protobuf)
 - [NumPy](http://www.numpy.org/)
 - [Scipy](https://www.scipy.org/)
