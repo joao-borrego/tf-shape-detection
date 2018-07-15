@@ -9,6 +9,7 @@ We have used Single Shot Detector [SSD][ssd] using [MobileNet][mobilenet] as the
     GPU0: Nvidia TITAN Xp
     GPU1: Nvidia TITAN Xp
     RAM: 64GB
+    OS: Ubuntu 18.04 Bionic
 ```
 
 The network is automatically split between the 2 GPUs.
