@@ -1,5 +1,7 @@
 ## Trials
 
+We have used Single Shot Detector [SSD][ssd] using [MobileNet][mobilenet] as the feature extractor (which was trained using [ImageNet][imagenet]) and pre-trained on [COCO][coco] dataset as our baseline.
+
 ### Hardware Setup
 
 ```
@@ -8,6 +10,9 @@
     GPU1: Nvidia TITAN Xp
     RAM: 64GB
 ```
+
+The network is automatically split between the 2 GPUs.
+Our setup allowed us to use a batch size of 8 in all training scenarios.
 
 ### Training Set Composition
 
@@ -39,3 +44,8 @@ We used exponentially decaying learning rate, α = α_0 * k ^ floor(- iteration 
 | fine_tune/sim_big_camera  | 0.001             | -             | 50k        |
 | sim_no_camera_*           | 0.004             | 50k           | 100k       |
 | fine_tune/sim_no_camera_* | 0.001             | -             | 25k        |
+
+[coco]: http://cocodataset.org/#home
+[imagenet]: https://arxiv.org/abs/1704.04861
+[mobilenet]: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+[ssd]: http://www.cs.unc.edu/%7Ewliu/papers/ssd.pdf
