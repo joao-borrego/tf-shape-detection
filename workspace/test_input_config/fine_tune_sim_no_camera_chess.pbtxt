@@ -1,2 +1,2 @@
-label_map_path: 'config/label_map.pbtxt'
+label_map_path: 'workspace/config/label_map.pbtxt'
 tf_record_input_reader: { input_path: 'workspace/inference_results/fine_tune/sim_no_camera_chess/detections.tfrecord' }
