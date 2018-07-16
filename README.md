@@ -48,7 +48,7 @@ Our pipeline requires the following software.
 
 [arxiv]: TODO
 [coco]: http://cocodataset.org/#home
-[dataset]: TODO
+[dataset]: http://soma.isr.ist.utl.pt/vislab_data/shapes2018/shapes2018.tar.gz
 [gap]: https://github.com/jsbruglie/gap
 [gazebo]: http://gazebosim.org/
 [notebook]: ShapeDetection.ipynb
