@@ -47,6 +47,6 @@ We used exponentially decaying learning rate, α = α_0 * k ^ floor(- iteration 
 | fine_tune/sim_no_camera_* | 0.001             | -             | 25k        |
 
 [coco]: http://cocodataset.org/#home
-[imagenet]: https://arxiv.org/abs/1704.04861
-[mobilenet]: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+[mobilenet]: https://arxiv.org/abs/1704.04861
+[imagenet]: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
 [ssd]: http://www.cs.unc.edu/%7Ewliu/papers/ssd.pdf
