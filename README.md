@@ -20,7 +20,7 @@ The tests we performed are summarized in [tests.md][tests].
 
 We have uploaded a *preprint* version of our work to [arXiv.org][arxiv] which can be cited as follows:
 ```
-TODO
+[Pending announcement]
 ```
 ### Dataset
 
