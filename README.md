@@ -20,7 +20,12 @@ The tests we performed are summarized in [tests.md][tests].
 
 We have uploaded a *preprint* version of our work to [arXiv.org][arxiv] which can be cited as follows:
 ```
-[Pending announcement]
+@article{borregoatabak2018,
+  title={Applying Domain Randomization to Synthetic Data for Object Category Detection},
+  author={João Borrego, Atabak Dehban, Rui Figueiredo, Plinio Moreno, Alexandre Bernardino, José Santos-Victor},
+  journal={arXiv preprint arXiv:1807.09834},
+  year={2018}
+}
 ```
 ### Dataset
 
@@ -46,7 +51,7 @@ Our pipeline requires the following software.
 - [Pandas](http://pandas.pydata.org/)
 - [Jupyter](http://jupyter.org/)
 
-[arxiv]: TODO
+[arxiv]: https://arxiv.org/abs/1807.09834
 [coco]: http://cocodataset.org/#home
 [dataset]: http://soma.isr.ist.utl.pt/vislab_data/shapes2018/shapes2018.tar.gz
 [gap]: https://github.com/jsbruglie/gap
