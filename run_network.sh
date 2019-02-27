@@ -169,7 +169,7 @@ do
 
     python models/research/object_detection/export_inference_graph.py \
         --input_type image_tensor \
-        --pipeline_config_path ${ws}/config/fine_tune_/${trial}.config \
+        --pipeline_config_path ${ws}/config/fine_tune/${trial}.config \
         --trained_checkpoint_prefix ${ws}/train/fine_tune/${trial}/model.ckpt-25000 \
         --output_directory ${ws}/inference_graph/fine_tune/${trial}
 done
