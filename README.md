@@ -21,9 +21,9 @@ The tests we performed are summarized in [tests.md][tests].
 We have uploaded a *preprint* version of our work to [arXiv.org][arxiv] which can be cited as follows:
 ```
 @article{borregoatabak2018,
-  title={Applying Domain Randomization to Synthetic Data for Object Category Detection},
-  author={João Borrego, Atabak Dehban, Rui Figueiredo, Plinio Moreno, Alexandre Bernardino, José Santos-Victor},
-  journal={arXiv preprint arXiv:1807.09834},
+  title={The impact of domain randomization on object detection: a case study on parametric shapes and synthetic textures},
+  author={Dehban, Atabak and Borrego, Jo{\~a}o and Figueiredo, Rui and Moreno, Plinio and Bernardino, Alexandre and Santos-Victor, Jos{\'e}},
+  booktitle="IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
   year={2018}
 }
 ```
